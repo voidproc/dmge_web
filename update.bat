@@ -1,2 +1,3 @@
-copy /y ..\dmge\Emscripten\Release\* dist
-ren dist\dmge_wasm.html index.html
+copy /y ..\dmge\Emscripten\Release\* docs
+del docs\index.html
+ren docs\dmge_wasm.html index.html
